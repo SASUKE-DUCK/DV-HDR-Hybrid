@@ -102,7 +102,6 @@ logger.info("Extraction complete.")
 if args.rpu == "hdr" or args.rpu is None:
     filename = 'L6_8.1.json'
     json_data = {
-        "length": 0,
         "level6": {
             "max_display_mastering_luminance": 1000,
             "min_display_mastering_luminance": 1,
